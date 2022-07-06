@@ -1,7 +1,4 @@
-export default function sum(items) {
-  let result = 0;
-  for (const item of items) {
-    result += item;
-  }
-  return result;
+export default function construction(arr) {
+  arr.sort((a, b) => b.health - a.health, 0);
+  return arr;
 }
